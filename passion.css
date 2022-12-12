@@ -1,0 +1,82 @@
+.header{
+    background-image: url(/manzara.jpg);
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    background-size: 100%;
+}
+i{
+    font-size: 50px;
+    color: white;
+}
+.cizgi{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.parent{
+    font-size: 55px;
+    margin-left: 6.5rem;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+.download{
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+}
+.cizgi2{
+    width: 95%;
+    height: 2px;
+    background-color: gray;
+    margin-top: 2rem;
+    margin: auto;
+}
+.kart{
+    width: 79%;
+    height: 200px;
+    margin: auto;
+    padding-top: 1rem;
+}
+.yuvarlak{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timeimg{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.passion{
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+@media screen and (max-width:900px) {
+    .header{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;    
+    }
+    .parent{
+        margin: auto;
+    }
+    .download{
+        margin: auto; 
+        margin-top: 2rem;
+    }
+    .btn{
+        width: 100%;
+    }
+    .yazi{
+        font-size: 25px;
+    }
+    .kart{
+        margin-bottom: 5rem;
+    }
+}
