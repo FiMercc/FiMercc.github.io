@@ -1,0 +1,95 @@
+body{
+    background-color:rgb(14, 13, 13);
+}
+.background{
+    background-image: url(/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 581px;
+    width: 380px;
+    position: relative;
+}
+.anasayfa{
+    height: 100vh;
+}
+.icerik{
+    border: 1px solid white;
+    width: 380px;
+    height: 450px;
+    margin-left: 1rem;
+    
+}
+.logo{
+    background-image: url(/instagramm.png);
+    background-position: 0px -502px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+input{
+    width: 80%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    margin-left: 2.4rem;
+    font-size: 12.7px;
+    padding: 1rem;
+    color: white;
+}
+.icerik2{
+    width: 380px;
+    height: 63px;
+    border: 1px solid white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+button{
+    width: 80%;
+    margin-left: 2.4rem;
+    height: 40px;
+    background-color: rgb(1, 69, 109);
+}
+.cizgi1,.cizgi2{
+    width: 80px;
+    height: 1px;
+    background-color: gray;
+    margin: auto;
+}
+.cizgiicerik{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+.myimg{
+    
+    margin-top: 23px;
+    right: 0;
+}
+.can{
+    position: absolute;
+    width: 230px;
+    right: 30px;
+}
+@media screen and (max-width:900px){
+    .background{
+        display: none;
+    }
+    .icerik{
+        width: 100%;
+        margin: auto;
+    }
+    .icerik2{
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .anasayfa{
+        height: auto;
+    }
+    
+}

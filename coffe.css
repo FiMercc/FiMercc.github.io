@@ -1,0 +1,157 @@
+img {
+    max-width: 100px;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+}
+
+
+ul li {
+    margin-right: 3rem;
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+.coffe1 {
+    background-image: url(/pexels-chevanon-photography-312418.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.coffe2 {
+    background-image: url(/pexels-elina-sazonova-1907071.jpg);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.coffe3 {
+    background-image: url(/pexels-lil-artsy-3216564.jpg);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+.kahve {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Ms Madi', cursive;
+    font-size: 80px;
+}
+.kahve2{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    margin-left: 7rem; 
+    text-shadow: 1px 1px 2px pink;
+}
+h4{
+    margin-left: 4.8rem;
+    padding: 1rem;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+    padding-top: 2rem;
+}
+.menu{
+    display: flex;
+}
+@media screen and (max-width:900px) {
+    .img{
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+    nav{
+        display: block;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        height: 100%;
+
+    }
+    ul li{
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    ul{
+        display: block;
+    }
+
+    .menu{
+        margin: auto;
+        font-size: 40px;
+
+    }
+    .menu li{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .coffe1{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        background-image: url(/pexels-chevanon-photography-312418.jpg);
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+        margin: auto;
+    }
+    .coffe2{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        background-image: url(/pexels-chevanon-photography-312418.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .coffe3{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        background-image: url(/pexels-chevanon-photography-312418.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .parent{
+        text-align: center;
+        justify-content: center;
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+    .kahve2{
+        text-align: center;
+        margin-top: 0;
+        padding: 0;
+        margin: auto;
+    }
+    .kahve{
+        margin-top: 2rem;
+
+    }
+    h1{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+}
