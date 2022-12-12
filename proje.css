@@ -55,6 +55,12 @@ img{
     animation: gradient 8s ease infinite;
     width: 200px;
 }
+.iletisim{
+    font-family: 'Courier New', Courier, monospace;
+}
+.iletisimtext{
+    padding-top: 2rem;
+}
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
